@@ -30,7 +30,6 @@ import client.SimulationsClient;
 import data.SimulationDataFactory;
 import exception.ConflictException;
 import exception.NotFoundException;
-import exception.SimulationException;
 import exception.UnprocessableEntityException;
 import io.restassured.http.Headers;
 import java.math.BigDecimal;
