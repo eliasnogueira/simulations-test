@@ -35,7 +35,6 @@ import io.restassured.http.Headers;
 import java.math.BigDecimal;
 import model.Simulation;
 import model.SimulationBuilder;
-import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -46,15 +45,13 @@ class SimulationsTest {
 
     private static final String FAILED_VALIDATION = "data.SimulationDataProvider#failedValidations";
 
-    static SimulationsClient simulationsClient;
-    static SoftAssertions softAssertions;
-    static SimulationDataFactory simulationDataFactory;
+    private static SimulationsClient simulationsClient;
+    private static SimulationDataFactory simulationDataFactory;
 
     @BeforeAll
     static void preCondition() {
         simulationsClient = new SimulationsClient();
         simulationDataFactory = new SimulationDataFactory();
-        softAssertions = new SoftAssertions();
     }
 
     @Test
