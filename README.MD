@@ -4,7 +4,7 @@ This test project belongs to a set of projects listed bellow:
 * [simulations-client](https://github.com/eliasnogueira/simulations-client)
 * [test-parent](https://github.com/eliasnogueira/test-parent)
 
-## What this project does?
+## What does this project do?
 This is the test project for the [credit-simulator-api](https://github.com/eliasnogueira/credit-simulator-api), so you need to run locally the API service to be able to run the tests.
 
 The [SimulationsTest](https://github.com/eliasnogueira/simulations-test/blob/master/src/test/java/simulations/SimulationsTest.java) 
